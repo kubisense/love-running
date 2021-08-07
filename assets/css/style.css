@@ -243,7 +243,7 @@ footer {
     }
 }
 /* For medium screen sizes from 950px wide and down */
-@media screen and (max-width:1200px) {
+@media screen and (max-width:950px) {
     #menu {
        clear: left;
        float: left;
@@ -270,4 +270,13 @@ footer {
         text-align: center;
         padding: 0 20px;
     }
-}    
+    #photos {
+        column-count: 3;
+    }
+} 
+/* For mobile screen sizes from 800px wide and down */
+@media screen and (max-width:800px) {
+    #photos {
+        column-count: 2;
+    } 
+}  
